@@ -120,6 +120,7 @@ nav:
     - 数值代数: others/numerical_linear_algebra/index.md
     - 数据建模与分析: others/data_modeling_and_analysis/index.md
     - 抽象代数: others/abstract_algebra/index.md
+    - 数学类选修课程集: others/math_elective/index.md
     - 经济学类课程集: others/economics/index.md
     - 金融学类课程集: others/finance/index.md
     - B/S 体系软件设计: others/browser_server_software/index.md
@@ -166,9 +167,11 @@ extra_css:
   - css/tasklist.css
   - css/card.css
   - css/custom.css
+  - https://cdn.tonycrane.cc/utils/katex.min.css
 
 extra_javascript:
   - js/katex.js
+  - https://cdn.tonycrane.cc/utils/katex.min.js
 
 markdown_extensions:
   - toc:
